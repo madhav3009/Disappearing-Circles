@@ -1,0 +1,72 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Disappearing Circles</title>
+ <style type="text/css">
+    .CIRCLE{
+	
+	float:left;
+	margin-top:300px;
+	margin-left:70px;
+	margin-right:50px;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	}
+   #RED{
+   background-color:Red;
+   }
+   #GREEN{
+   background-color:Green;
+   }
+   #YELLOW{
+   background-color:yellow;
+   }
+   #BLACK{
+   background-color:black;
+   }
+   #GRAY{
+   background-color:gray;
+   }
+   #ORANGE{
+   background-color:orange;
+   }
+ </style>
+
+</head>
+
+ <body>
+    <div class="CIRCLE" id="RED"></div>
+	 <div class="CIRCLE" id="GREEN"></div>
+	 <div class="CIRCLE" id="YELLOW"></div>
+	 <div class="CIRCLE" id="BLACK"></div>
+	 <div class="CIRCLE" id="GRAY"></div>
+     <div class="CIRCLE" id="ORANGE"></div>
+ 
+   <script type="text/javascript">
+	 	document.getElementById("RED").onclick=function(){
+		document.getElementById("RED").style.display="none";
+		}
+		
+		document.getElementById("GREEN").onclick=function(){
+		document.getElementById("GREEN").style.display="none";
+		}
+		document.getElementById("YELLOW").onclick=function(){
+		document.getElementById("YELLOW").style.display="none";
+		}
+		document.getElementById("BLACK").onclick=function(){
+		document.getElementById("BLACK").style.display="none";
+		}
+		document.getElementById("GRAY").onclick=function(){
+		document.getElementById("GRAY").style.display="none";
+		}
+		document.getElementById("ORANGE").onclick=function(){
+		document.getElementById("ORANGE").style.display="none";
+		}
+		
+	
+	 </script>
+ 
+ </body>
+
+</html>
